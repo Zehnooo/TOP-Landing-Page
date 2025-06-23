@@ -66,7 +66,7 @@ body {
 }
 
 img {
-  width: 250px;
+  width: 500px;
   height: auto;
 }
 
@@ -77,6 +77,7 @@ img {
 .hero-section {
   display: flex;
   width: 100%;
+  flex-direction: column;
 }
 
 header {
@@ -92,6 +93,7 @@ header {
   justify-content: center;
   text-align: center;
   align-items: center;
+  font-weight: 900;
 }
 
 .header-links {
@@ -111,15 +113,33 @@ header {
 
 .section-one {
   display: flex;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-one .image {
+  padding: 25px;
+  max-width: 60%;
+}
+
+.section-one .text {
+  padding: 25px;
+  max-width: 40%;
 }
 
 .section-one h1 {
   font-size:48px;
   font-weight: 900;
-  color: #F9FAF8
+  color: #F9FAF8;
+  text-wrap: wrap;
+  margin-bottom: 10px;
 }
 
 .section-one p {
   font-size: 18px;
-  color: #E5E7EB
+  color: #E5E7EB;
+  line-height: 1.5rem;
 }
