@@ -166,3 +166,25 @@ header {
 .section-one button:hover {
   background-color: #0a66a1;
 }
+
+.section-two h2 {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  text-align: center;
+  padding: 20px;
+}
+
+.image-line {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.image-line img {
+  height:125px;
+  width:125px;
+}
