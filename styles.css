@@ -170,6 +170,10 @@ header {
   background-color: #0a66a1;
 }
 
+.section-two {
+  width:100%;
+}
+
 .section-two h2 {
   font-size: 36px;
   color: #1F2937;
@@ -210,4 +214,18 @@ header {
   color:#506075;
   max-width: 175px;
   padding: 10px;
+}
+
+.section-three, .section-four {
+  width:100%;
+  display:flex;
+  padding:32px 0;
+  gap: 48px;
+}
+
+.section-three {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-style: italic;
+  color:#1F2937;
 }
