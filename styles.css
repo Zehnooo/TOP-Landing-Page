@@ -235,7 +235,7 @@ header {
   max-width: 800px;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
 }
 
 .section-three q {
@@ -244,6 +244,7 @@ header {
   padding:25px;
   opacity: 75%;
   font-family: Calibri;
+  width: 100%;
 }
 
 .background-three {
@@ -257,4 +258,34 @@ header {
 
 .section-three .quote-author {
   font-weight:  900;
+  width:100%;
+  text-align: right;
+ }
+
+ .card {
+  height: 125px;
+  width:100%;
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding:32px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+ }
+
+ .card .text-container {
+  width:100%;
+  max-width: 600px;
+  padding:32px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+ }
+ 
+
+ .card .button-container {
+  width: 100%;
+  max-width: 200px;
+  padding:32px;
  }
