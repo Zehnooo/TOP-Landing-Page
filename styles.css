@@ -116,10 +116,12 @@ header {
   text-decoration: none;
   color:#E5E7EB;
   font-size: 18px;
+  transition: transform 0.4s ease;
 }
 
 .header-links a:hover {
   opacity: 75%;
+  transform: translateY(-5px);
 }
 
 .section-one {
@@ -170,10 +172,12 @@ header {
   padding: 10px;
   border-radius: 8px;
   border: none;
+  transition: transform 0.4s ease;
 }
 
 .section-one button:hover {
   background-color: #0a66a1;
+  transform:scale(1.1);
 }
 
 .section-two {
@@ -306,7 +310,13 @@ header {
   padding: 10px;
   border-radius: 8px;
   border: 2px solid #F9FAF8;
+  transition: transform 0.4s ease;
  }
+
+ .card button:hover {
+  background-color: #0a66a1;
+  transform:scale(1.1);
+}
 
  footer {
   display: flex;
