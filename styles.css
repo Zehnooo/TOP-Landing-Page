@@ -80,7 +80,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
-    padding: 0 32px;
+    padding: 32px;
+    height:100%;
 }
 
 .section-one, .section-two, .section-three, .section-four {
@@ -305,4 +306,15 @@ header {
   padding: 10px;
   border-radius: 8px;
   border: 2px solid #F9FAF8;
+ }
+
+ footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #F9FAF8;
+  width: 100%;
+  height: auto;
+  padding:25px;
  }
